@@ -128,7 +128,7 @@ http_tunnel_connect(host, port, callback)
 			return;
 		}
 
-		var err = new Error('server did not allow CONNECT (HTTP %d)',
+		var err = new VError('server did not allow CONNECT (HTTP %d)',
 		    res.statusCode);
 		err.statusCode = res.statusCode;
 		err.subresponse = res;
