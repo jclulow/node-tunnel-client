@@ -1,0 +1,26 @@
+{
+  "name": "tunnel-client",
+  "version": "0.0.1",
+  "description": "Proxy/Tunnel Client",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jclulow/node-tunnel-client.git"
+  },
+  "keywords": [
+    "connect",
+    "proxy",
+    "tunnel",
+    "http",
+    "https"
+  ],
+  "author": "Joshua M. Clulow <jmc@joyent.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jclulow/node-tunnel-client/issues"
+  },
+  "homepage": "https://github.com/jclulow/node-tunnel-client",
+  "dependencies": {
+    "assert-plus": "^0.1.5"
+  }
+}
