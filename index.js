@@ -27,7 +27,7 @@ connect(host, port, callback)
 	var self = this;
 
 	mod_assert.string(host, 'host');
-	mod_assert.object(port, 'port');
+	mod_assert.number(port, 'port');
 	mod_assert.func(callback, 'callback');
 
 	var done = false;
