@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/jclulow/node-tunnel-client",
   "dependencies": {
-    "assert-plus": "^0.1.5"
+    "assert-plus": "^0.1.5",
+    "verror": "^1.4.0"
   }
 }
