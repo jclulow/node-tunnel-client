@@ -16,7 +16,7 @@ TunnelClient(options)
 	if (options.proxy_url) {
 		mod_assert.string(options.proxy_url, 'options.proxy_url');
 		var proxy_url = mod_url.parse(options.proxy_url);
-		mod_assert.strictEqual(options.proxy_url.protocol, 'http:',
+		mod_assert.strictEqual(proxy_url.protocol, 'http:',
 		    'unsupported proxy protocol');
 
 		self.hpt_proxy_host = proxy_url.hostname;
